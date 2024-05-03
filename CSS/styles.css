@@ -71,7 +71,7 @@
     height: 380px;
     background-position: center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     align-content: center;
     padding-left: 30px;
@@ -105,8 +105,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -120,4 +120,5 @@
 
 .pie_de_pagina .redes_sociales img {
     filter: brightness(0) invert(1);
+    padding-right: 10px;
 }
