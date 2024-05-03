@@ -1,0 +1,55 @@
+/* Contenedor Izquierdo */
+
+.contenedor_izquierdo {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.subcontenedor_izquierdo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo_tablero {
+    height: 50px;
+    width: auto;
+}
+
+
+/* Contenedor derecho */
+
+.contenedor_derecho {
+    background-image: url(/img/bitcoin-es-la-criptomoneda-mas-p.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+.titulo_cripto {
+    color: white;
+    margin-left: 20px;
+}
+
+/* Footer */
+
+.pie_de_pagina {
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pie_de_pagina .redes_sociales img {
+    filter: brightness(0) invert(1);
+}
