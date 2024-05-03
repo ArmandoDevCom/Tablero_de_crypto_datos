@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="main-container d-flex">
+        
         <div class="sidebar" id="side_nav">
             <div class="header-box px-2 pt-3 pb-4">
                 <img class="logo_dashboard" src="/img/dashboard.png" alt="">
@@ -38,9 +39,19 @@
         <div class="content">
             <div class="content_div">
                 <h1>Criptomonedas🪙</h1>
-                <p>Esta información es proporcionada por: <a href="">CariptoYa</a></p>
+                <p>Esta información es proporcionada por: <a href="https://www.coinlore.com/">CoinLore</a></p>
             </div>
-            <div></div>
+            <div class="charts">
+                <div class="chart-container grafica-pie">
+                    <h2>Top 5 Criptomonedas más valiosas</h2>
+                    <canvas id="pieChart"></canvas>
+                </div>
+                <div class="chart-container grafica-barra">
+                    <h2>Próximas 50 Criptomonedas más valiosas (después de las primeras 5)</h2>
+                    <canvas id="barChart"></canvas>
+                </div>
+            </div>
+            </div>
         </div>   
     </div>
     <footer class="pie_de_pagina">
@@ -60,7 +71,8 @@
         </div>
     </footer>
     
-    <script src="/SRC/index.js"></script>
+    <script type="module" src="/SRC/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
